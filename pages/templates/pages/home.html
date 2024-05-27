@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+    <div class="container mt-5">
+        <div class="mx-auto p-5" style="width: 800px;">
+            <p style="color: #fff">Hi, my name is</p>
+            <h1 style="color: #fe019a">Natalia de Mesquita Orsi Vieira</h1>
+            <h2 style="color: #fc8eac">a software developer based in The Netherlands</h2>
+            <p style="color: #fff">A brazilian graduated in law who decided to live new challenges as a software developer, while enjoying the life in The Netherlands.</p>
+            <a href="{% url 'project_index'  %}">
+                <button type="button" class="btn btn-outline-light">Projects</button>
+            </a>
+        </div>
+    </div>
+{% endblock page_content %}
